@@ -6,6 +6,9 @@ import './App.css'
 import Footer from './components/Footer'
 import AddProjectForm from './components/AddProjectForm'
 import ProjectCard from './components/ProjectCard'
+import ProjectList from './components/ProjectList'
+import SearchBar from './components/SearchBar'
+import AddProjectForm from './components/AddProjectForm'
 
 function App() {
   const [count, setCount] = useState(0)
