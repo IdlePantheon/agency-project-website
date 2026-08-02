@@ -29,7 +29,7 @@ const defaultProjects = [
     client: "Glovo",
     title: "Rider Recognition Campaign",
     category: "Marketing Campaign",
-    image: "",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBwx0uv441ekq1DJFqVJDTvTHz3VHLtshjIjkwKoq2_Q&s=10",
     description: "A social-first campaign spotlighting real Glovo riders, generating over 3 million organic impressions across Nairobi and Mombasa.",
   },
 ];
