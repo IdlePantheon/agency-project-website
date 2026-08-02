@@ -3,8 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Footer from './components/Footer';
-
+import Footer from './components/Footer'
+import AddProjectForm from './components/AddProjectForm'
+import ProjectCard from './components/ProjectCard'
 
 function App() {
   const [count, setCount] = useState(0)
