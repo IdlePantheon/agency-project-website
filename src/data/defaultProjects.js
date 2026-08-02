@@ -2,34 +2,35 @@ const defaultProjects = [
   {
     id: "p1",
     client: "KFC Kenya",
-    title: "Finger Lickin' Nairobi",
+    title: "Finger Lickin Good' Nairobi",
     category: "Advertising & Print",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS10QpQTjGosxSVgquoM2D6q1MveW61dxnmXjdFLsv5DQ&s=10",
     description:
-      "A city-wide billboard and radio campaign built around Nairobi's matatu culture, driving a 22% lift in walk-in traffic during launch week.",
+      "A city-wide billboard and built around relatable Kenyan culture,leaving the brand etched into people's minds, driving potential sales and 22% increase in walk in during that month.",
   },
   {
     id: "p2",
     client: "Co-operative Bank",
-    title: "Co-op Mobile Redesign",
+    title: "YEA Mobile App",
     category: "Digital Product Design",
-    description:
-    "End-to-end UX overhaul of the mobile banking app, simplifying loan applications from 9 steps down to 3 for over 4 million users.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLoSyYilGO0Q0MpdYUkojC01R54Amd0OxJwCQZoCAFgQ&s=10",
+    description: "End-to-end UX overhaul of the mobile banking app, targeting youths between 18 to 34. The slick design is made to drift away from the polished babby boomer prefernce leaning into a more expressive color and features.",
   },
   {
     id: "p3",
-    client: "Uber",
+    client: "Faras",
     title: "Fleet Branding Rollout",
     category: "Brand Identity",
-    description:
-      "Livery and driver-partner visual identity system rolled out across five East African markets, built for quick, low-cost local printing.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGfpKMYezb013Fg-qVu3xoeGp_qsqkNexe9Uy7axizNw&s=10",
+    description: "Lively and driver-partner visual identity system rolled out across Kenyan markets, built for quick, low-cost local printing.",
   },
   {
     id: "p4",
     client: "Glovo",
     title: "Rider Recognition Campaign",
     category: "Marketing Campaign",
-    description:
-      "A social-first campaign spotlighting real Glovo riders, generating over 3 million organic impressions across Nairobi and Mombasa.",
+    image: "",
+    description: "A social-first campaign spotlighting real Glovo riders, generating over 3 million organic impressions across Nairobi and Mombasa.",
   },
 ];
 

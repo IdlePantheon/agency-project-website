@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -42,9 +42,9 @@ function App() {
             We build brands people remember, not just recognize.
           </h1>
           <p className="hero-text">
-            Nyota &amp; Co. partners with corporate and consumer brands across
-            East Africa on advertising, digital product design, and marketing
-            campaigns that hold their own in a crowded feed.
+            Nyota. partners with corporate and consumer brands across
+            East Africa and The World, digital in product design, and marketing
+            campaigns that sets itself to capture the attention of the target odience.
           </p>
         </section>
 
@@ -61,26 +61,26 @@ function App() {
 
         <section id="about" className="section">
           <div className="section-inner-narrow">
-            <p className="section-eyebrow">Who We Are</p>
-            <h2 className="section-title">About Nyota &amp; Co.</h2>
+            <p className="section-eyebrow">Who Are We?</p>
+            <h2 className="section-title">About Nyota </h2>
             <p className="section-text">
               We help brands get noticed, stay in people's memory, and stand
               out from everyone else chasing the same attention. Founded in
               Nairobi, our team works across advertising, product design, and
               marketing to turn ordinary campaigns into ones people talk
-              about &mdash; from billboard to mobile app.
+              about, from billboard to mobile app.
             </p>
           </div>
         </section>
 
         <section id="contact" className="section section-alt">
           <div className="section-inner-narrow">
-            <p className="section-eyebrow">Get In Touch</p>
+            <p className="section-eyebrow">Let us Get in Touch</p>
             <h2 className="section-title">Contact</h2>
             <p className="section-text">
               Have a brand that needs to be seen? Reach us at{" "}
-              <a href="mailto:hello@nyotaco.agency" className="section-link">
-                hello@nyotaco.agency
+              <a href="mailto:info@nyota.co.ke" className="section-link">
+                info@nyota.co.ke
               </a>{" "}
               and we'll get back to you within two working days.
             </p>
