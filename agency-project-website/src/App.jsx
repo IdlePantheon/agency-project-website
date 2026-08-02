@@ -8,6 +8,7 @@ import AddProjectForm from './components/AddProjectForm'
 import ProjectCard from './components/ProjectCard'
 import ProjectList from './components/ProjectList'
 import SearchBar from './components/SearchBar'
+import Navbar from './components/Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
