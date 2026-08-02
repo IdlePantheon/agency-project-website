@@ -43,53 +43,35 @@ function AddProjectForm({ onAddProject }) {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="mb-10 border border-line bg-white p-6"
-    >
-      <h3 className="mb-4 font-display text-lg font-semibold text-ink">
-        Add a campaign
-      </h3>
+    <form onSubmit={handleSubmit} className="project-form">
+      <h3>Add a campaign</h3>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        <div>
-          <label htmlFor="client" className="mb-1 block text-sm font-medium text-ink">
-            Client
-          </label>
+      <div className="form-grid">
+        <div className="form-field">
+          <label htmlFor="client">Client</label>
           <input
             id="client"
             type="text"
             value={form.client}
             onChange={handleChange("client")}
-            className="w-full border border-line px-3 py-2 text-sm focus-visible:outline-2 focus-visible:outline-cobalt"
             placeholder="e.g. Java House"
           />
         </div>
 
-        <div>
-          <label htmlFor="title" className="mb-1 block text-sm font-medium text-ink">
-            Campaign title
-          </label>
+        <div className="form-field">
+          <label htmlFor="title">Campaign title</label>
           <input
             id="title"
             type="text"
             value={form.title}
             onChange={handleChange("title")}
-            className="w-full border border-line px-3 py-2 text-sm focus-visible:outline-2 focus-visible:outline-cobalt"
             placeholder="e.g. Morning Ritual Rebrand"
           />
         </div>
 
-        <div className="sm:col-span-2">
-          <label htmlFor="category" className="mb-1 block text-sm font-medium text-ink">
-            Category
-          </label>
-          <select
-            id="category"
-            value={form.category}
-            onChange={handleChange("category")}
-            className="w-full border border-line bg-white px-3 py-2 text-sm focus-visible:outline-2 focus-visible:outline-cobalt"
-          >
+        <div className="form-field form-grid-full">
+          <label htmlFor="category">Category</label>
+          <select id="category" value={form.category} onChange={handleChange("category")}>
             {CATEGORIES.map((category) => (
               <option key={category} value={category}>
                 {category}
@@ -98,31 +80,25 @@ function AddProjectForm({ onAddProject }) {
           </select>
         </div>
 
-        <div className="sm:col-span-2">
-          <label htmlFor="description" className="mb-1 block text-sm font-medium text-ink">
-            Description
-          </label>
+        <div className="form-field form-grid-full">
+          <label htmlFor="description">Description</label>
           <textarea
             id="description"
             value={form.description}
             onChange={handleChange("description")}
             rows={3}
-            className="w-full border border-line px-3 py-2 text-sm focus-visible:outline-2 focus-visible:outline-cobalt"
             placeholder="What did the agency deliver, and what was the result?"
           />
         </div>
       </div>
 
       {error && (
-        <p role="alert" className="mt-3 text-sm text-red-600">
+        <p role="alert" className="form-error">
           {error}
         </p>
       )}
 
-      <button
-        type="submit"
-        className="mt-5 bg-cobalt px-5 py-2.5 font-mono text-xs uppercase tracking-wider text-paper transition-transform hover:-translate-y-0.5"
-      >
+      <button type="submit" className="form-submit">
         Add project
       </button>
     </form>

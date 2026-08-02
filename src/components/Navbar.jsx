@@ -15,23 +15,19 @@ function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-paper/95 backdrop-blur">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+    <header className="navbar">
+      <nav className="navbar-inner">
         <a
           href="#home"
           onClick={(e) => handleNavClick(e, "home")}
-          className="font-display text-lg font-bold tracking-tight text-ink"
+          className="navbar-logo"
         >
-          Nyota&nbsp;&amp;&nbsp;Co.
+          Nyota &amp; Co.
         </a>
-        <ul className="flex items-center gap-1 font-mono text-xs uppercase tracking-wider text-slate">
+        <ul className="navbar-links">
           {NAV_ITEMS.map((item) => (
             <li key={item.id}>
-              <a
-                href={`#${item.id}`}
-                onClick={(e) => handleNavClick(e, item.id)}
-                className="block rounded-full px-4 py-2 transition-colors hover:bg-ink hover:text-paper"
-              >
+              <a href={`#${item.id}`} onClick={(e) => handleNavClick(e, item.id)}>
                 {item.label}
               </a>
             </li>
