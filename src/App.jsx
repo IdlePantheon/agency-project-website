@@ -37,7 +37,7 @@ function App() {
 
       <main>
         <section id="home" className="hero">
-          <p className="hero-eyebrow">Nairobi &mdash; Creative Agency</p>
+          <p className="hero-eyebrow">Nairobi Creative Agency</p>
           <h1 className="hero-title">
             We build brands people remember, not just recognize.
           </h1>
