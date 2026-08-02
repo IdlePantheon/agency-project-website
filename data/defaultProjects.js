@@ -13,7 +13,7 @@ const defaultProjects = [
     title: "Co-op Mobile Redesign",
     category: "Digital Product Design",
     description:
-      "End-to-end UX overhaul of the mobile banking app, simplifying loan applications from 9 steps down to 3 for over 4 million users.",
+    "End-to-end UX overhaul of the mobile banking app, simplifying loan applications from 9 steps down to 3 for over 4 million users.",
   },
   {
     id: "p3",
@@ -33,4 +33,4 @@ const defaultProjects = [
   },
 ];
 
-export default defaultProjects;
+export default defaultProjects; 
